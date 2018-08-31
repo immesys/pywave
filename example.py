@@ -1,6 +1,6 @@
 
 import grpc
-import wave as wv
+import wave3 as wv
 
 channel = grpc.insecure_channel("localhost:410")
 agent = wv.WAVEStub(channel)
