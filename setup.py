@@ -1,9 +1,9 @@
 from setuptools import setup
 
 setup(
-  name="wave",
+  name="wave3",
   version="3.0.0",
-  packages=['wave'],
+  packages=['wave3'],
   license="GPLv3",
   install_requires=[
     "grpcio-tools",
